@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeterminePrimeNumber", "Det
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{D797141D-012E-4494-A016-9FF2E0E51DEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{D797141D-012E-4494-A016-9FF2E0E51DEB}.Debug|x86.Build.0 = Debug|x86
 		{D797141D-012E-4494-A016-9FF2E0E51DEB}.Release|x86.ActiveCfg = Release|x86
 		{D797141D-012E-4494-A016-9FF2E0E51DEB}.Release|x86.Build.0 = Release|x86
+		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Debug|x86.ActiveCfg = Debug|x86
+		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Debug|x86.Build.0 = Debug|x86
+		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Release|x86.ActiveCfg = Release|x86
+		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
