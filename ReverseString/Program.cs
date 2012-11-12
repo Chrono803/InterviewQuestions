@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace SnippetsAndAlgorithms
+﻿namespace ReverseString
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             var input = Console.ReadLine();
 
