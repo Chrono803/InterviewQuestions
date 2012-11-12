@@ -1,0 +1,1 @@
+Small solution to incorporate common interview programming questions.
