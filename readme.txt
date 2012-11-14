@@ -1,1 +1,1 @@
-Small solution to incorporate common interview programming questions.
+Small solution to incorporate common interview programming questions and some code snippets.
