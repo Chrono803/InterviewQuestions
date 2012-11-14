@@ -19,6 +19,10 @@
                 {
                     Console.WriteLine("{0} is prime", parsedInput);
                 }
+                else
+                {
+                    items.ToList().ForEach(i => Console.WriteLine("{0} is a a multiple of {1}", i, parsedInput));
+                }
             }
             else
             {
