@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPerformanceCounters", "CustomPerformanceCounters\CustomPerformanceCounters.csproj", "{F6D23F0D-4C58-41A9-B6D6-47942DF5A661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectorExamples", "GarbageCollectorExamples\GarbageCollectorExamples.csproj", "{24D1DB97-E091-4C38-AFE1-E150832DF6EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,16 @@ Global
 		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Release|x86.ActiveCfg = Release|x86
 		{02B41AA9-20D8-4168-B4D8-CCBEC3A5755D}.Release|x86.Build.0 = Release|x86
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{24D1DB97-E091-4C38-AFE1-E150832DF6EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{9A521B65-3E85-4E2C-9AF3-3FF6EBDAC798}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{9A521B65-3E85-4E2C-9AF3-3FF6EBDAC798}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{9A521B65-3E85-4E2C-9AF3-3FF6EBDAC798}.Debug|Mixed Platforms.Build.0 = Debug|x86
