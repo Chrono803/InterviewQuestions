@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeterminePrimeNumber", "DeterminePrimeNumber\DeterminePrimeNumber.csproj", "{9A521B65-3E85-4E2C-9AF3-3FF6EBDAC798}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{D797141D-012E-4494-A016-9FF2E0E51DEB}"
@@ -12,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectorExamples", "GarbageCollectorExamples\GarbageCollectorExamples.csproj", "{24D1DB97-E091-4C38-AFE1-E150832DF6EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeContractsDemo", "CodeContractsDemo\CodeContractsDemo.csproj", "{7B2D314D-88F1-43D3-803B-9DD5BF213DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExamples", "DelegatesExamples\DelegatesExamples.csproj", "{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,11 +89,18 @@ Global
 		{7B2D314D-88F1-43D3-803B-9DD5BF213DC7}.Release|Mixed Platforms.Build.0 = Release|x86
 		{7B2D314D-88F1-43D3-803B-9DD5BF213DC7}.Release|x86.ActiveCfg = Release|x86
 		{7B2D314D-88F1-43D3-803B-9DD5BF213DC7}.Release|x86.Build.0 = Release|x86
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
