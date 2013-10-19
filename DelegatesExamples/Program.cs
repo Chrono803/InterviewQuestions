@@ -48,8 +48,22 @@
             }
             else
             {
-                Console.WriteLine("Invoked and false");
+                Console.WriteLine("Invoked and false" + Environment.NewLine + Environment.NewLine);
             }
+
+            // Set first delegate's invocation list
+            myDelegate += myDelegate2;
+
+            // Can we add a Func, Action, and Predicate to it as well?
+            // myDelegate += myFunc + myAction + myPredicate;   Nope
+
+            foreach (Delegate item in myDelegate.GetInvocationList())
+            {
+                Console.WriteLine("Delegate method - {0}", item.Method.Name);
+                Console.WriteLine("Delegate target - {0}", item.Target);
+            }
+
+            Console.ReadLine();
         }
 
         public int ParseInput(string input)
