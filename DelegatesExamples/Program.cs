@@ -1,10 +1,6 @@
 ﻿namespace DelegatesExamples
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     class Program
     {
@@ -48,14 +44,18 @@
             }
             else
             {
-                Console.WriteLine("Invoked and false" + Environment.NewLine + Environment.NewLine);
+                Console.WriteLine("Invoked and false");
             }
+
+            Console.WriteLine(Environment.NewLine);
 
             // Set first delegate's invocation list
             myDelegate += myDelegate2;
 
             // Can we add a Func, Action, and Predicate to it as well?
-            // myDelegate += myFunc + myAction + myPredicate;   Nope
+            // Nope, it won't compile.
+
+            // myDelegate += myFunc + myAction + myPredicate;
 
             foreach (Delegate item in myDelegate.GetInvocationList())
             {
@@ -66,7 +66,7 @@
             Console.ReadLine();
         }
 
-        public int ParseInput(string input)
+        private int ParseInput(string input)
         {
             return Int32.Parse(input);
         }
