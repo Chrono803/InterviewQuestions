@@ -31,17 +31,18 @@
             Predicate<int> myPredicate = i => i == 0;
 
             // Output
-            Console.WriteLine("Delegate keyword - {0}", myDelegate.Invoke("10"));
+            Console.WriteLine("Delegate keyword - {0}", myDelegate("10"));
+            Console.WriteLine("Delegate invocation list - {0}", myDelegate.GetInvocationList());
 
-            Console.WriteLine("Anonymous delegate keyword - {0}", myDelegate2.Invoke("10"));
+            Console.WriteLine("Anonymous delegate keyword - {0}", myDelegate2("10"));
 
-            Console.WriteLine("Func - {0}", myFunc.Invoke("10"));
+            Console.WriteLine("Func - {0}", myFunc("10"));
 
             Console.WriteLine("Action Executed:");
-            myAction.Invoke(10);
+            myAction(10);
 
             Console.WriteLine("Predicate executed:");
-            if (myPredicate.Invoke(0))
+            if (myPredicate(0))
             {
                 Console.WriteLine("Invoked and true");
             }

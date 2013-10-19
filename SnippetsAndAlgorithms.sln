@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeContractsDemo", "CodeCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExamples", "DelegatesExamples\DelegatesExamples.csproj", "{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsExamples", "EventsExamples\EventsExamples.csproj", "{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,16 @@ Global
 		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
