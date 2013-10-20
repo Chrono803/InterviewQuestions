@@ -49,7 +49,7 @@
 
             Console.WriteLine(Environment.NewLine);
 
-            // Set first delegate's invocation list
+            // Set second delegate to the first delegate's invocation list
             myDelegate += myDelegate2;
 
             // Can we add a Func, Action, and Predicate to it as well?
@@ -60,7 +60,6 @@
             foreach (Delegate item in myDelegate.GetInvocationList())
             {
                 Console.WriteLine("Delegate method - {0}", item.Method.Name);
-                Console.WriteLine("Delegate target - {0}", item.Target);
             }
 
             Console.ReadLine();
