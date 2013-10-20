@@ -1,5 +1,4 @@
-﻿using System;
-namespace EventsExamples
+﻿namespace EventsExamples
 {
     public enum LoggerType
     {

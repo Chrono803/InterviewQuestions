@@ -1,24 +1,38 @@
-﻿using System;
-namespace EventsExamples
+﻿namespace EventsExamples
 {
+    using System;
+
     // public delegate void LoggerHandler(object sender, LoggerEventArgs e);
 
     public class Logger
     {
-        // Uses delegate inference so we don't need the above delegate signature
-        public event EventHandler<LoggerEventArgs> OnLogging;
+        // The compiler can infer the delegate to the event so we don't need the above delegate signature
+        public event EventHandler<LoggerEventArgs> Logging; // Event with custom EventArgs
+        public event EventHandler LoggingCompleted; // Even with built in EventArgs
 
-        public void LogMessage()
+        protected virtual void OnLogging(string message, LoggerType loggerType)
         {
-            // Log(new LoggerEventArgs
+            if (Logging != null) // Making sure there's something in the delegate's invocation list (no listeners attached).
+            {
+                Logging(this, new LoggerEventArgs(message, loggerType));
+            }
         }
 
-        private void Log(string message, LoggerType loggerType)
+        protected virtual void OnLoggingCompleted()
         {
-            if (OnLogging != null) // Making sure something is listening
+            if (LoggingCompleted != null)
             {
-                Console.WriteLine("{0} message - {1}", loggerType, message);
+                LoggingCompleted(this, EventArgs.Empty);
             }
+        }
+
+        public void Log(string message, LoggerType loggerType)
+        {
+            // Raise the logging event
+            OnLogging(message, loggerType);
+
+            // Raise the logging completed event
+            OnLoggingCompleted();
         }
     }
 }
