@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeterminePrimeNumber", "DeterminePrimeNumber\DeterminePrimeNumber.csproj", "{9A521B65-3E85-4E2C-9AF3-3FF6EBDAC798}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExamples", "DelegatesExamples\DelegatesExamples.csproj", "{BA2AFFBC-C6BE-4A69-A149-4C3092B07712}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsExamples", "EventsExamples\EventsExamples.csproj", "{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExamples", "InterfaceExamples\InterfaceExamples.csproj", "{714296FF-70F6-4211-86EE-DE0F616E3146}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,16 @@ Global
 		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2E84BF98-1DC2-4F8E-9024-46BCD61D1E01}.Release|x86.ActiveCfg = Release|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{714296FF-70F6-4211-86EE-DE0F616E3146}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
